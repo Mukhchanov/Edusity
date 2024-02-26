@@ -16,6 +16,9 @@ function Testimonials() {
     const slideForward = () => {
         if(tx > -50) {
             tx -= 25;
+        }else if(tx == -50) {
+            tx += 50;
+            slider.current.style.transform = `translateX(${tx})`
         }
         slider.current.style.transform = `translateX(${tx}%)`;
     };
@@ -23,6 +26,9 @@ function Testimonials() {
     const slideBackward = () => {
         if(tx < 0) {
             tx += 25;
+        }else if(tx == 0) {
+            tx -= 50;
+            slider.current.style.transform = `translateX(${tx}%)`;    
         }
         slider.current.style.transform = `translateX(${tx}%)`;
     };
