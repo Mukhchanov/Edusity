@@ -7,6 +7,8 @@ import Title from './components/Title';
 import About from './components/About';
 import Campus from './components/Campus';
 import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -21,6 +23,9 @@ function App() {
                 <Campus />
                 <Title subtitle={'testimonials'} title={'What Student Says'} />
                 <Testimonials />
+                <Title subtitle={'contact us'} title={'Get in Touch'} />
+                <Contact />
+                <Footer />
             </div>
         </div>
     )
