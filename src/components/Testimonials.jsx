@@ -1,12 +1,12 @@
 import React from 'react';
 import { useRef } from 'react';
 import '../styles/layouts/_testimonials.scss';
-import next_icon from '../assets/next-icon.png';
-import back_icon from '../assets/back-icon.png';
-import user_1 from '../assets/user-1.png';
-import user_2 from '../assets/user-2.png';
-import user_3 from '../assets/user-3.png';
-import user_4 from '../assets/user-4.png';
+import next_icon from '../assets/images/next-icon.png';
+import back_icon from '../assets/images/back-icon.png';
+import user_1 from '../assets/images/user-1.png';
+import user_2 from '../assets/images/user-2.png';
+import user_3 from '../assets/images/user-3.png';
+import user_4 from '../assets/images/user-4.png';
 
 function Testimonials() {
 

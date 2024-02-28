@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/layouts/_contact.scss';
-import msg_icon from '../assets/msg-icon.png';
-import mail_icon from '../assets/mail-icon.png';
-import phone_icon from '../assets/phone-icon.png';
-import location_icon from '../assets/location-icon.png';
-import white_arrow from '../assets/white-arrow.png';
+import msg_icon from '../assets/images/msg-icon.png';
+import mail_icon from '../assets/images/mail-icon.png';
+import phone_icon from '../assets/images/phone-icon.png';
+import location_icon from '../assets/images/location-icon.png';
+import white_arrow from '../assets/images/white-arrow.png';
 
 function Contact() {
 

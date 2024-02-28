@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/layouts/_campus.scss';
-import gallery_1 from '../assets/gallery-1.png';
-import gallery_2 from '../assets/gallery-2.png';
-import gallery_3 from '../assets/gallery-3.png';
-import gallery_4 from '../assets/gallery-4.png';
-import white_arrow from '../assets/white-arrow.png';
+import gallery_1 from '../assets/images/gallery-1.png';
+import gallery_2 from '../assets/images/gallery-2.png';
+import gallery_3 from '../assets/images/gallery-3.png';
+import gallery_4 from '../assets/images/gallery-4.png';
+import white_arrow from '../assets/images/white-arrow.png';
 
 function Campus() {
     return (

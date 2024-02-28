@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/layouts/_about.scss';
-import about_img from '../assets/about.png';
-import play_icon from '../assets/play-icon.png';
+import about_img from '../assets/images/about.png';
+import play_icon from '../assets/images/play-icon.png';
 
-function About() {
+function About({ setPlayState }) {
     return (
         <div className='about'>
             <div className="about__left">
                 <img src={about_img} className='about-img' alt="" />
-                <img src={play_icon} className='play-icon' alt="" />
+                <img src={play_icon} className='play-icon' onClick={() => {setPlayState(true)}} alt="" />
             </div>
             <div className="about__right">
                 <h3>ABOUT UNIVERSITY</h3>   

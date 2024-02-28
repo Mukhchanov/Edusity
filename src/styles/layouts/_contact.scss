@@ -56,3 +56,14 @@
         }
     }
 }
+
+// ------------- Media query -------------
+
+@media(max-width: 768px) {
+    .contact {
+        display: block;
+        &__col:nth-of-type(2) {
+            margin-top: 40px;
+        }
+    }
+}

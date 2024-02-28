@@ -13,3 +13,17 @@
         }
     }
 }
+
+// ------------- Media query -------------
+
+@media(max-width: 768px) {
+    .campus {
+        &__gallery {
+            flex-wrap: wrap;
+            img {
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

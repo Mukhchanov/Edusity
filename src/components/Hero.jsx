@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/layouts/_hero.scss';
-import dark_arrow from '../assets/dark-arrow.png';
+import dark_arrow from '../assets/images/dark-arrow.png';
 
 function Hero() {
     return (
